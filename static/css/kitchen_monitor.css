@@ -1,0 +1,45 @@
+body {
+    min-width: 800px;
+}
+
+form {
+    width: 60%;
+    border: 1px solid black;
+    background-color: aquamarine;
+    margin: 20px auto;
+    text-align: center;
+    display: block;
+}
+
+form button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 1px 20px;
+    text-decoration: none;
+    font-size: 1em;
+    color: blue;
+}
+
+#customer_order_ul {
+    list-style-type: none;
+}
+
+.customer_order_li {
+    list-style-type: none;
+    float:left;
+    background-color: darkorange;
+    width:30%;
+    margin:10px;
+}
+
+.items {
+    clear:both;
+    list-style-type: none;
+    margin:10px;
+}
+
+h3, h1, h2 {
+    text-align: center;
+    margin:10px;
+}

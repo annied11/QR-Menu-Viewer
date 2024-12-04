@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Summary</title>
+    <script>
+        // Redirect to the main menu after 15 seconds
+        setTimeout(function() {
+            window.location.href = "/{{ table_number }}";
+        }, 15000); // 15 seconds in milliseconds
+    </script>
+</head>
+<body>
+    <h1>Order Summary</h1>
+    <h2>Customer Name: {{ customer_name }}</h2>
+    <h3>Table Number: {{ table_number }}</h3>
+    <h3>Order Summary:</h3>
+    <div>
+        {% for line in orders.splitlines() %}
+            {% if 'Total' not in line %}
+                <p><strong>{{ line }}</strong></p>
+            {% endif %}
+        {% endfor %}
+    </div>
+    <p><strong>Total:</strong> {{ orders.split('Total: ')[1] }}</p>
+</body>
+</html>
