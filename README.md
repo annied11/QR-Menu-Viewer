@@ -12,11 +12,10 @@
 ## Website Links
 - **Main Menu**: [https://wad18.pythonanywhere.com/11](https://wad18.pythonanywhere.com/11)  
 - **Kitchen**: [https://wad18.pythonanywhere.com/kitchen/](https://wad18.pythonanywhere.com/kitchen/)
-- 
+  
 ## QR Codes
 ### Main Menu
 <img src="main.png" alt="Main Menu QR Code" width="300">
-
 
 ### Kitchen
 <img src="kitchen.png" alt="Kitchen QR Code" width="300">
@@ -31,4 +30,3 @@
 - **Backend**: Flask
 - **Database**: SQLite
 - **ORM**: SQLAlchemy
-
