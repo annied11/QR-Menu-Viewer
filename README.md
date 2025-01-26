@@ -1,4 +1,4 @@
-# QR-Menu-Viewer
+# 🍽️ QR-Menu-Viewer
 
 **QR-Menu-Viewer** is a simple project that simulates a digital restaurant menu system. By scanning a QR code, users can access the menu of a mock restaurant directly from their devices, offering a touchless and modern dining experience.
 
