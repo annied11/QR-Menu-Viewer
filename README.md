@@ -15,7 +15,7 @@
   
 ## QR Codes
 ### Main Menu
-<img src="main.png" alt="Main Menu QR Code" width="300">
+<img src="menu.png" alt="Main Menu QR Code" width="300">
 
 ### Kitchen
 <img src="kitchen.png" alt="Kitchen QR Code" width="300">
